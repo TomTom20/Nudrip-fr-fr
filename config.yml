@@ -1,0 +1,40 @@
+baseURL: ""
+languageCode: en-us
+title: Nudrips, fr fr
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: 'Welcome to "Website Title"'
+    Content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed faucibus augue, ut euismod ligula. Fusce tincidunt fuckyou lectus sit amet elementum efficitur. Ut efficitur consequat dolor, quis posuere libero mattis a.'
+  socialIcons:
+    - name: facebook
+      url: https://www.youtube.com/watch?v=WFf70UH2RU0
+    - name: twitter
+      url: https://www.youtube.com/watch?v=Sq4r2_bvy_s
+    - name: github
+      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      
+
+  cover:
+    linkFullImages: true
+
+  showBreadCrumbs: true
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
